@@ -1,0 +1,98 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.round {
+	background-image:url("form_bg.jpg");
+	background-repeat:repeat-x;
+	border-radius: 5px;
+	border:1px solid #bdb4b3;
+	width: 230px;
+	color:black;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+}
+
+table{
+text-align:center;
+}
+td{
+padding:8px;
+}
+
+</style>
+<title>registration</title>
+</head>
+<body>
+<img src="IIITlogo.png" alt="IIIT Logo" style="float-right;height:80px;width:150px;"/><br><br><br>
+<a href="https://serc.iiit.ac.in/rdip" style="position: absolute; left: 1350px; top: 50px;"><b>RDIP</b></a>
+<ul>
+  <li><a href="webpage.html">Home</a></li>
+  <li><a href="Registration.html">Registration Form</a></li>
+</ul><br><br>
+<form action="details.html" method="post" name="frmLogin">
+<table text-align="center">
+<tr>
+<td><b>First name:</b></td>
+<td><input type="text" class="round" id="fn" name="fn""></td>
+</tr>
+<tr>
+<td><b>E-mail:</b></td>
+<td><input type="text" class="round" id="em" name="em"></td>
+</tr>
+<tr>
+<td><b>Phone No:</b></td>
+<td><input  class="round" type="text" id="phn" name="phn"></td>
+</tr>
+<tr>
+<td><b>Gender:</b></td>
+<td><input type="radio"  id="male" name="male" ><label for="male"><b>Male</b></label><input type="radio"  id="female" name="female"><label for="female"><b>Female</b></label><input type="radio"  id="other" name="other"><label for="other"><b>Other</b></label></td>
+</tr>
+<tr>
+<td><b>Reason for RDIP:</b></td>
+<td><input type="checkbox" id="html" name="html" value="html"><label for="html"><b>HTML</b></label><input type="checkbox" id="css" name="css" value="css"><label for="css"><b> CSS</b></label><input type="checkbox" id="js" name="js" value="js"><label for="js"><b>JavaScript</b></label></td>
+</tr>
+<tr>
+<td><b>College:</b></td>
+<td><input type="text" class="round" id="clg" name="clg"></td>
+</tr>
+<tr>
+<td>
+<br>
+<input type="checkbox"><br><br>
+<button type="submit" value="Submit"/>Submit</button>
+</td>
+<td>
+<h4><b>I declare above details given by me are true.</b></h4>
+<button type="reset" value="Reset"/>Reset</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
